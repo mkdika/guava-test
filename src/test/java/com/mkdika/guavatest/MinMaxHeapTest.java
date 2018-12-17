@@ -54,5 +54,4 @@ public class MinMaxHeapTest {
         System.out.println("size: "+r.length+", result: " + Arrays.toString(r));
         assertThat(r, equalTo(new Integer[]{30,15,10}));
     }
-
 }
